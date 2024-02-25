@@ -1,27 +1,35 @@
-# Service
+# Card Pokémon
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto em Angular que utiliza a PokeApi para pesquisar e exibir informações sobre Pokémon.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Pesquisa de Pokémon: Você pode pesquisar Pokémon pelo nome ou número da Pokédex.
+- Exibição de Cards: Os resultados da pesquisa são exibidos em cards informativos contendo detalhes sobre o Pokémon.
+- Detalhes do Pokémon: Você pode clicar em um card para ver mais informações detalhadas sobre um Pokémon específico.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Certifique-se de ter o Node.js e o Angular CLI instalados em seu ambiente de desenvolvimento.
 
-## Build
+## Instalação
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório: git clone https://github.com/seu-usuario/card-pokemon.git
+2. Navegue até o diretório do projeto: cd card-pokemon
+3. Instale as dependências: npm install
 
-## Running unit tests
+## Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Inicie o servidor de desenvolvimento: ng serve
+2. Abra o navegador e visite http://localhost:4200/
+3. Use a barra de pesquisa para encontrar Pokémon por nome ou número.
 
-## Running end-to-end tests
+## Contribuindo
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um pull request ou relatar problemas.
 
-## Further help
+# Créditos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este projeto utiliza a PokeApi para obter dados sobre Pokémon.
+Licença
+Este projeto está licenciado sob a Licença MIT.
